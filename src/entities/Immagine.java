@@ -1,6 +1,6 @@
 package entities;
 
-public class Immagine extends Object implements Luminosita {
+public class Immagine extends Titolo implements Luminosita {
     private int luminosità;
 
     public Immagine(String titolo, int luminosità) {
@@ -9,22 +9,22 @@ public class Immagine extends Object implements Luminosita {
     }
 
     @Override
-    public int getLuminosità() {
+    public int getLuminosita() {
         return luminosità;
     }
 
     @Override
-    public void setLuminosità(int luminosità) {
+    public void setLuminosita(int luminosità) {
         this.luminosità = luminosità;
     }
 
     @Override
-    public void aumentaLuminosità() {
+    public void aumentaLuminosita() {
         this.luminosità++;
     }
 
     @Override
-    public void diminuisciLuminosità() {
+    public void diminuisciLuminosita() {
         this.luminosità--;
     }
 
@@ -33,4 +33,3 @@ public class Immagine extends Object implements Luminosita {
         System.out.println(getTitolo() + " " + asterischi);
     }
 }
-

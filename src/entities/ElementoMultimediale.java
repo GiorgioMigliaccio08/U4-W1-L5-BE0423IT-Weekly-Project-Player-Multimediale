@@ -3,6 +3,8 @@ package entities;
 * ad avere elementi comuni per le classi che verranno create in seguito. */
 public interface ElementoMultimediale {
     public int getDurata();
-    public void setDurata();
+
+    void setDurata(int durata);
+
     public void play();
 }
