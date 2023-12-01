@@ -1,16 +1,13 @@
 package entities;
 
-public class Titolo {
-     public abstract class Object {
-         private String titolo;
-         public String getTitolo(){
-             return titolo;
-         }
+public abstract class Titolo {
+    private String titolo;
 
-         public void setTitolo(String Titolo){
-             this.titolo = titolo;
-         }
+    public String getTitolo() {
+        return titolo;
+    }
 
-
-     }
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
 }
