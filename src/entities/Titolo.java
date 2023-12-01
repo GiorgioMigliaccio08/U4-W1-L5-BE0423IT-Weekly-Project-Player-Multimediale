@@ -1,6 +1,6 @@
 package entities;
 
-public abstract class Titolo {
+public  class Titolo {
     private String titolo;
 
     public String getTitolo() {
